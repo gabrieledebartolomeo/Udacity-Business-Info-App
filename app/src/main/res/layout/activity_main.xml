@@ -11,53 +11,79 @@
         android:id="@+id/profilogabri"
         android:layout_width="200px"
         android:layout_height="200px"
-        android:layout_marginLeft="70dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
         />
 
     <TextView
-        android:text="Nome"
+        android:text="Gabriele De Bartolomeo"
         android:id="@+id/Nome"
         android:layout_toRightOf="@id/profilogabri"
-        android:layout_marginTop="70dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <ImageView
+        android:src="@drawable/gps"
+        android:id="@+id/gps_icon"
+        android:layout_toRightOf="@id/profilogabri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
         />
 
     <TextView
-        android:text="Cognome"
-        android:id="@+id/Cognome"
+        android:text="via Macerata, 2, 62017 Porto Recanati (MC) (Italia)"
+        android:id="@+id/via"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/gps_icon"
+        />
+
+    <ImageView
+        android:src="@drawable/cell"
+        android:id="@+id/cell_icon"
         android:layout_toRightOf="@id/profilogabri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="90dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         />
 
     <TextView
-        android:text="Data di nascita"
+        android:text="(+39) 3397355620"
         android:id="@+id/data_nascita"
-        android:layout_toRightOf="@id/profilogabri"
-        android:layout_marginTop="110dp"
+        android:layout_toRightOf="@id/cell_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="90dp"
         />
 
-    <TextView
-        android:text="Sesso"
-        android:id="@+id/sesso"
+    <ImageView
+        android:src="@drawable/messaging"
+        android:id="@+id/messaging_icon"
         android:layout_toRightOf="@id/profilogabri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="130dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         />
 
     <TextView
-        android:text="Country of origin"
-        android:id="@+id/country"
-        android:layout_toRightOf="@id/profilogabri"
-        android:layout_marginTop="150dp"
+        android:text="g.debartolomeo09@gmail.com"
+        android:id="@+id/mail"
+        android:layout_toRightOf="@id/messaging_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="130dp"
         />
 
 </RelativeLayout>
