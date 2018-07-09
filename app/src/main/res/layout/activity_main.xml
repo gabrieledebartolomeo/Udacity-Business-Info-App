@@ -86,4 +86,24 @@
         android:layout_marginTop="130dp"
         />
 
+    <ImageView
+        android:src="@drawable/pages"
+        android:id="@+id/mouse_icon"
+        android:layout_toRightOf="@id/profilogabri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="170dp"
+        />
+
+    <TextView
+        android:text="https://github.com/gabrieledebartolomeo"
+        android:id="@+id/pages"
+        android:layout_toRightOf="@id/mouse_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="170dp"
+        />
+
 </RelativeLayout>
