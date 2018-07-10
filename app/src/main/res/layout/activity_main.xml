@@ -42,7 +42,7 @@
         />
 
     <TextView
-        android:text="via Macerata, 2, 62017 Porto Recanati (MC) (Italia)"
+        android:text="via ABC number 1"
         android:id="@+id/via"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
         />
 
     <TextView
-        android:text="(+39) 3397355620"
+        android:text="1234567890"
         android:id="@+id/data_nascita"
         android:layout_toRightOf="@id/cell_icon"
         android:layout_width="wrap_content"
@@ -82,7 +82,7 @@
         />
 
     <TextView
-        android:text="g.debartolomeo09@gmail.com"
+        android:text="mymail@mail.com"
         android:id="@+id/mail"
         android:layout_toRightOf="@id/messaging_icon"
         android:layout_width="wrap_content"
